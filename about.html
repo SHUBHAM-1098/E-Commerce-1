@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ h1 {
+    text-align: center;
+}
+  div{
+     background-color:#E3E6F3;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+img {
+   display:  block;
+   margin-left:  auto;
+   margin-right: auto;
+   width:  50%;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+<h1>Meet The Team</h1>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\skbmm\OneDrive\Desktop\pj\nikki.jpg" alt="Nikki" style="width:40%">
+      <div class="container"> 
+        <h2>Nikki Gupta</h2>
+        <p class="title">Graphic Designer</p>
+        <p>I am Nikki Gupta, the creative force behind the captivating user interface of our eCommerce project.
+My commitment has been to make our website a delight to use, and I have worked tirelessly to ensure it is responsive and user-friendly across all devices. I believe in the power of design to enhance the user journey and create memorable experiences. My dedication to crafting a visually appealing and user-friendly interface has been driving force behind our project's success.</p>
+        <p>nikki2002gupta@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\skbmm\OneDrive\Desktop\pj\shubham.jpg" alt="Shubham" style="width:50%">
+      <div class="container">
+        <h2>Shubham Kumar</h2>
+        <p class="title">Project Coordinator/ Front-End Developer</p>
+        <p>I am Shubham Kumar, the team lead, responsible for coordination between different sections of our e-commerce project. I have also worked as a frontend developer. My expertise is in HTML, CSS, and front-end frameworks. My knowledge in graphic designing and back-end frameworks helped me to designate appropriate task to members of our team. These skills empowered us to craft a visually stunning interface that represents our brand's identity and values.</p>
+        <p>skbmmr@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\skbmm\OneDrive\Desktop\pj\roshan.png" alt="Roshan" style="width:50%">
+      <div class="container">
+        <h2>Roshan Kumar</h2>
+        <p class="title">Backend Developer</p>
+        <p>I am Roshan Kumar, the backend developer for our eCommerce project, and I have played a pivotal role in ensuring the smooth and secure operation of our website. I take pride in being a part of this dedicated team and contributing to our eCommerce project's success. My expertise is in java, javascript and back-end framework.</p>
+        <p>roshansinha92686@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
